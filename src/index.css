@@ -1,0 +1,169 @@
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+/* Global Body */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* Light background for smooth visual appeal */
+  color: #1f2937; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease; /* Smooth transition for background */
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Poppins for bold and clear headings */
+  font-weight: 700;
+  color: #1f2937; /* Dark text for headings */
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1.125rem;
+}
+
+/* Buttons */
+button {
+  font-family: 'Poppins', sans-serif;
+  padding: 12px 24px;
+  border-radius: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px); /* Subtle hover effect */
+}
+
+.bg-indigo-600 {
+  background-color: #4c6ef5; /* Beautiful blue */
+}
+
+.bg-indigo-600:hover {
+  background-color: #3b5bdb;
+}
+
+.bg-green-600 {
+  background-color: #34d399; /* Soft green */
+}
+
+.bg-green-600:hover {
+  background-color: #2bbf7f;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-blue-600:hover {
+  background-color: #1d4ed8;
+}
+
+/* Inputs & Textarea */
+input, textarea {
+  padding: 14px;
+  border-radius: 1rem;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #4c6ef5; /* Blue border on focus */
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9fafb;
+  color: #4a5568;
+}
+
+/* Scroll Animations */
+[data-aos="fade-up"] {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease-in-out;
+}
+
+[data-aos="fade-down"] {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+[data-aos="fade-down"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Smooth Scroll Animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark Mode (optional) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a202c;
+    color: #edf2f7;
+  }
+  .card {
+    background-color: #2d3748;
+    border: 1px solid #4a5568;
+  }
+}

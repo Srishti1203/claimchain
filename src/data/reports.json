@@ -1,0 +1,15 @@
+[
+    {
+      "category": "Water",
+      "type": "Leakage",
+      "date": "2025-04-24",
+      "details": "Water leak near sector 15, Delhi."
+    },
+    {
+      "category": "Electricity",
+      "type": "Power Cut",
+      "date": "2025-04-24",
+      "details": "Power outage reported in DLF Phase 2, Gurgaon."
+    }
+  ]
+  

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Layout from "../components/Layout";
+import Layout from "../components/layout.jsx";
 
 // Image Imports
 import myimage from "../assets/myimage.png";

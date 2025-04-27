@@ -67,10 +67,9 @@ React.js, Vite, TailwindCSS, React Router, AOS (Animate on Scroll), Node.js, GRO
 
 ## 🌐 Live Demo
 
-> **Coming Soon on Vercel / GitHub Pages!**
->  
-> *(Once deployed, your site will be accessible at:)*  
-> https://your-username.github.io/claimchain or https://claimchain.vercel.app
+> **Live demo on Vercel**
+>    
+> https://claimchain-l4ma.vercel.app/
 
 ---
 
